@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4700FB52BD58736006DDE23 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = B4700FB42BD58736006DDE23 /* Nuke */; };
+		B4700FB72BD58736006DDE23 /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = B4700FB62BD58736006DDE23 /* NukeExtensions */; };
+		B4700FB92BD58736006DDE23 /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = B4700FB82BD58736006DDE23 /* NukeUI */; };
+		B4700FBB2BD58736006DDE23 /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = B4700FBA2BD58736006DDE23 /* NukeVideo */; };
+		B4700FBE2BD587D0006DDE23 /* CachedImageCircled.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4700FBD2BD587D0006DDE23 /* CachedImageCircled.swift */; };
+		B4700FC02BD71F31006DDE23 /* IngredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4700FBF2BD71F31006DDE23 /* IngredientView.swift */; };
+		B4700FC32BD721B1006DDE23 /* IngredientCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4700FC22BD721B1006DDE23 /* IngredientCollectionView.swift */; };
+		B4700FC62BD72858006DDE23 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4700FC52BD72858006DDE23 /* TagView.swift */; };
 		B47766042BD2D1290022165D /* iRecipeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47766032BD2D1290022165D /* iRecipeApp.swift */; };
-		B47766062BD2D1290022165D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47766052BD2D1290022165D /* ContentView.swift */; };
 		B47766082BD2D12A0022165D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B47766072BD2D12A0022165D /* Assets.xcassets */; };
 		B477660B2BD2D12A0022165D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B477660A2BD2D12A0022165D /* Preview Assets.xcassets */; };
 		B47766152BD2D12A0022165D /* iRecipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47766142BD2D12A0022165D /* iRecipeTests.swift */; };
 		B477661F2BD2D12A0022165D /* iRecipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B477661E2BD2D12A0022165D /* iRecipeUITests.swift */; };
 		B47766212BD2D12A0022165D /* iRecipeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47766202BD2D12A0022165D /* iRecipeUITestsLaunchTests.swift */; };
+		B477662F2BD2D2770022165D /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B477662E2BD2D2770022165D /* Alamofire */; };
+		B47766312BD2D2770022165D /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = B47766302BD2D2770022165D /* AlamofireDynamic */; };
+		B47766342BD2D2C90022165D /* AlamofireHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47766332BD2D2C90022165D /* AlamofireHttpClient.swift */; };
+		B47766392BD48EEA0022165D /* ExampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47766382BD48EEA0022165D /* ExampleViewModel.swift */; };
+		B477663B2BD48EFF0022165D /* ExampleWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B477663A2BD48EFF0022165D /* ExampleWorker.swift */; };
+		B477663D2BD48FA00022165D /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B477663C2BD48FA00022165D /* ExampleView.swift */; };
+		B47766412BD490D70022165D /* MealRemote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47766402BD490D70022165D /* MealRemote.swift */; };
+		B47766452BD491300022165D /* MealDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47766442BD491300022165D /* MealDomain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +49,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B4700FBD2BD587D0006DDE23 /* CachedImageCircled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedImageCircled.swift; sourceTree = "<group>"; };
+		B4700FBF2BD71F31006DDE23 /* IngredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientView.swift; sourceTree = "<group>"; };
+		B4700FC22BD721B1006DDE23 /* IngredientCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientCollectionView.swift; sourceTree = "<group>"; };
+		B4700FC52BD72858006DDE23 /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
 		B47766002BD2D1290022165D /* iRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B47766032BD2D1290022165D /* iRecipeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRecipeApp.swift; sourceTree = "<group>"; };
-		B47766052BD2D1290022165D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B47766072BD2D12A0022165D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B477660A2BD2D12A0022165D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B47766102BD2D12A0022165D /* iRecipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRecipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +62,12 @@
 		B477661A2BD2D12A0022165D /* iRecipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iRecipeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B477661E2BD2D12A0022165D /* iRecipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRecipeUITests.swift; sourceTree = "<group>"; };
 		B47766202BD2D12A0022165D /* iRecipeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iRecipeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B47766332BD2D2C90022165D /* AlamofireHttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireHttpClient.swift; sourceTree = "<group>"; };
+		B47766382BD48EEA0022165D /* ExampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleViewModel.swift; sourceTree = "<group>"; };
+		B477663A2BD48EFF0022165D /* ExampleWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleWorker.swift; sourceTree = "<group>"; };
+		B477663C2BD48FA00022165D /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
+		B47766402BD490D70022165D /* MealRemote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealRemote.swift; sourceTree = "<group>"; };
+		B47766442BD491300022165D /* MealDomain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDomain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +75,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4700FB92BD58736006DDE23 /* NukeUI in Frameworks */,
+				B4700FBB2BD58736006DDE23 /* NukeVideo in Frameworks */,
+				B4700FB52BD58736006DDE23 /* Nuke in Frameworks */,
+				B4700FB72BD58736006DDE23 /* NukeExtensions in Frameworks */,
+				B477662F2BD2D2770022165D /* Alamofire in Frameworks */,
+				B47766312BD2D2770022165D /* AlamofireDynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +101,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B4700FBC2BD587C5006DDE23 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B4700FBD2BD587D0006DDE23 /* CachedImageCircled.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B4700FC12BD7219C006DDE23 /* Ingredient */ = {
+			isa = PBXGroup;
+			children = (
+				B4700FBF2BD71F31006DDE23 /* IngredientView.swift */,
+				B4700FC22BD721B1006DDE23 /* IngredientCollectionView.swift */,
+			);
+			path = Ingredient;
+			sourceTree = "<group>";
+		};
+		B4700FC42BD72848006DDE23 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B4700FC12BD7219C006DDE23 /* Ingredient */,
+				B4700FC52BD72858006DDE23 /* TagView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		B47765F72BD2D1290022165D = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +150,9 @@
 		B47766022BD2D1290022165D /* iRecipe */ = {
 			isa = PBXGroup;
 			children = (
+				B47766362BD48E600022165D /* Modules */,
+				B47766352BD48E450022165D /* Common */,
 				B47766032BD2D1290022165D /* iRecipeApp.swift */,
-				B47766052BD2D1290022165D /* ContentView.swift */,
 				B47766072BD2D12A0022165D /* Assets.xcassets */,
 				B47766092BD2D12A0022165D /* Preview Content */,
 			);
@@ -127,6 +184,76 @@
 			path = iRecipeUITests;
 			sourceTree = "<group>";
 		};
+		B47766322BD2D2880022165D /* HttpClient */ = {
+			isa = PBXGroup;
+			children = (
+				B47766332BD2D2C90022165D /* AlamofireHttpClient.swift */,
+			);
+			path = HttpClient;
+			sourceTree = "<group>";
+		};
+		B47766352BD48E450022165D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B47766322BD2D2880022165D /* HttpClient */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B47766362BD48E600022165D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B4700FBC2BD587C5006DDE23 /* Common */,
+				B47766372BD48E660022165D /* Example */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B47766372BD48E660022165D /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				B477663F2BD490BA0022165D /* Model */,
+				B477663A2BD48EFF0022165D /* ExampleWorker.swift */,
+				B477663E2BD490AE0022165D /* View */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		B477663E2BD490AE0022165D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4700FC42BD72848006DDE23 /* Components */,
+				B477663C2BD48FA00022165D /* ExampleView.swift */,
+				B47766382BD48EEA0022165D /* ExampleViewModel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B477663F2BD490BA0022165D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B47766432BD491230022165D /* Domain */,
+				B47766422BD4911F0022165D /* Remote */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B47766422BD4911F0022165D /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				B47766402BD490D70022165D /* MealRemote.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		B47766432BD491230022165D /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				B47766442BD491300022165D /* MealDomain.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +270,14 @@
 			dependencies = (
 			);
 			name = iRecipe;
+			packageProductDependencies = (
+				B477662E2BD2D2770022165D /* Alamofire */,
+				B47766302BD2D2770022165D /* AlamofireDynamic */,
+				B4700FB42BD58736006DDE23 /* Nuke */,
+				B4700FB62BD58736006DDE23 /* NukeExtensions */,
+				B4700FB82BD58736006DDE23 /* NukeUI */,
+				B4700FBA2BD58736006DDE23 /* NukeVideo */,
+			);
 			productName = iRecipe;
 			productReference = B47766002BD2D1290022165D /* iRecipe.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +350,10 @@
 				Base,
 			);
 			mainGroup = B47765F72BD2D1290022165D;
+			packageReferences = (
+				B477662D2BD2D2770022165D /* XCRemoteSwiftPackageReference "Alamofire" */,
+				B4700FB32BD58736006DDE23 /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
 			productRefGroup = B47766012BD2D1290022165D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +396,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B47766062BD2D1290022165D /* ContentView.swift in Sources */,
+				B4700FC02BD71F31006DDE23 /* IngredientView.swift in Sources */,
+				B47766392BD48EEA0022165D /* ExampleViewModel.swift in Sources */,
+				B4700FC62BD72858006DDE23 /* TagView.swift in Sources */,
+				B477663B2BD48EFF0022165D /* ExampleWorker.swift in Sources */,
+				B47766412BD490D70022165D /* MealRemote.swift in Sources */,
 				B47766042BD2D1290022165D /* iRecipeApp.swift in Sources */,
+				B47766342BD2D2C90022165D /* AlamofireHttpClient.swift in Sources */,
+				B477663D2BD48FA00022165D /* ExampleView.swift in Sources */,
+				B47766452BD491300022165D /* MealDomain.swift in Sources */,
+				B4700FBE2BD587D0006DDE23 /* CachedImageCircled.swift in Sources */,
+				B4700FC32BD721B1006DDE23 /* IngredientCollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,8 +576,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,9 +585,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = xkrzysztofk.iRecipe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -457,8 +609,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,9 +618,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = xkrzysztofk.iRecipe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -588,6 +744,58 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B4700FB32BD58736006DDE23 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = exactVersion;
+				version = 12.5.0;
+			};
+		};
+		B477662D2BD2D2770022165D /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = exactVersion;
+				version = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B4700FB42BD58736006DDE23 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4700FB32BD58736006DDE23 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		B4700FB62BD58736006DDE23 /* NukeExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4700FB32BD58736006DDE23 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeExtensions;
+		};
+		B4700FB82BD58736006DDE23 /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4700FB32BD58736006DDE23 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeUI;
+		};
+		B4700FBA2BD58736006DDE23 /* NukeVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4700FB32BD58736006DDE23 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeVideo;
+		};
+		B477662E2BD2D2770022165D /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B477662D2BD2D2770022165D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		B47766302BD2D2770022165D /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B477662D2BD2D2770022165D /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B47765F82BD2D1290022165D /* Project object */;
 }
